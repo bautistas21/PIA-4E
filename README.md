@@ -28,7 +28,7 @@ Esta tarea realiza un monitoreo de la red, se estará actalizando en vivo, o tam
 ### **6- Escanear Puertos (Bash)**
 La opción 6 realiza une escaneo de puertos, este puede ser tanto un escaneo de puertos UDP, o también TCP, únicamente necesitas ingresas la dirección IP o dominio a escanear.
 
-##Parámetros
+## Parámetros
 Main.py se puede utilizar indicando parámetros de entrada, los parámetros disponibles son los siguientes:
 - -op --opción: Este parámetro sirve para indicar la opción que deseas realizar del menú principal. así no te verás en la necesidad de ejecutar el script completo para ejecutar una única tarea.
 - -dir --directory: Este parámetro se utiliza para que en caso de selecciónar la opción 2 del menú principal (Ver archivos ocultos de una carpeta), puedas ingresar la ruta de la carpeta y así sea más ágil el proceso.
@@ -36,4 +36,8 @@ Main.py se puede utilizar indicando parámetros de entrada, los parámetros disp
 ```
 python Main.py -op 2 -dir "C:\Program Files"
 ```
-
+## Reportes
+Todas las salidas al momento de la ejecución del script, se irán a un reporte dependiendo de qué tarea haya sido la ejecutada, en donde se irán añadiendo las salidas de las futuras ejecuciones del script. Estos resportes se guardarán dentro de la carpeta llamada Reports y únicamente estarán los siguientes 3 reportes:
+- Python_Reports.txt
+- Powershell_Reports.txx
+- Bash_Reports.txt
