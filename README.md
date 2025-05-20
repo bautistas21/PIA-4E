@@ -20,7 +20,11 @@ Como su nombre lo dice, nos permitirá visualizar los usuarios del dispositivo q
 ###  **2- Buscar archivos ocultos (Powershell)**
 Esta tarea buscará los archivos ocultos que estén contenidos en alguna carpeta, la cual tendrás que ingresar su dirección.
 ### **3- Generar Hashes/Buscar hashes en diccionarios (Python)**
-Esta opción te mostrará otro menú, en donde podrás esocger entre generar un hash de algún texto, para después decidir si guardarlo en algún diciconario o no, otra opción es consultar el diccionario, donde 
+Esta opción te mostrará otro menú, en donde podrás esocger entre generar un hash de algún texto, para después decidir si guardarlo en algún diciconario o no, otra opción es consultar el diccionario, donde escribirás el nombre de algún diccionario incluyendo su extensión .txt, este dccionario necesita estar ubicado en la carpeta llamada Diccionarios, de lo contrario no lo encontrará.
+### **4- Buscar Hash en HaveIBeenPwnd (Python) (Relacionada con opción 3)**
+Te permite buscar algún hash en las brechas conocidas por HaveIBeenPwned, el hash puede ser personalizado, es decir tú ingresas un texto para que este después sea hasheado, o también puedes seleccionar alguno de los hashes que se encuentran almacenados en los diccionarios.
+### **5- Monitorear la red (Bash)**
+Esta tarea realiza un monitoreo de la red, se estará actalizando en vivo, o también puedes seleccionar cuántas veces se realizará el monitoreo.
+### **6- Escanear Puertos (Bash)**
+La opción 6 realiza une escaneo de puertos, este puede ser tanto un escaneo de puertos UDP, o también TCP, únicamente necesitas ingresas la dirección IP o dominio a escanear.
 
-
-     
