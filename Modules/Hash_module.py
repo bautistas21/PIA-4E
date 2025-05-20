@@ -124,17 +124,6 @@ def show_hashes(filename="hashes.txt", max_hashes=None):
     write_report(report_content, "show_hashes")
     
 
-    print(f"\n--- Hashes almacenados ({total} registros) ---\n")
-    for i, line in enumerate(lines[:max_hashes], 1):
-        if ':' in line:
-            hash_val, text = line.split(':', 1)
-            print(f"{i}. {hash_val} : {text}")
-        else:
-            print(f"{i}. {line}")
-
-    if not show_all and max_hashes < total:
-        print(f"\n[Mostrando {max_hashes} de {total} hashes.")
-
 def option3_menu():
     print("--- Generar o Buscar Hashes ---")
     print("""\n Opciones:
