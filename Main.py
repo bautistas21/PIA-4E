@@ -82,7 +82,7 @@ else:
             print("5. Monitorear la red (Bash)")
             print("6. Escanear Puertos (Bash)")
             print("7. Salir \n")
-            opcion = input("Seleccione una opción (1-6): ")
+            opcion = input("Seleccione una opción (1-7): ")
             
             if opcion == '1':
                 if(os()!='windows'):
