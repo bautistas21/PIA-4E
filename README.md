@@ -5,7 +5,6 @@ Las tareas que se incluyeron fueron las siguientes:
 - 1- Usuarios Administradores e Inactivos (Powershell)
 - 2- Buscar archivos ocultos (Powershell)
 - 3- Generar Hashes/Buscar hashes en diccionarios (Python)
-  Buscar Hash en HaveIBeenPwnd (Python) (Relacionada con opción 3)
 - 4- Buscar Hash en HaveIBeenPwnd (Python) (Relacionada con opción 3)
 - 5- Monitorear la red (Bash)
 - 6- Escanear Puertos (Bash)
@@ -19,6 +18,9 @@ A continuación aparecerá el mensaje de la compatibilidad con el sistema operat
 ### **1- Usuarios Administradores e Inactivos (Powershell)**
 Como su nombre lo dice, nos permitirá visualizar los usuarios del dispositivo que están definidos como administradores, o, también podremos elegir ver los usuarios que an estado inactivos en un plazo de 90 días, junto a la fecha en la que el usuario inició sesión por última vez.
 ###  **2- Buscar archivos ocultos (Powershell)**
+Esta tarea buscará los archivos ocultos que estén contenidos en alguna carpeta, la cual tendrás que ingresar su dirección.
+### **3- Generar Hashes/Buscar hashes en diccionarios (Python)**
+Esta opción te mostrará otro menú, en donde podrás esocger entre generar un hash de algún texto, para después decidir si guardarlo en algún diciconario o no, otra opción es consultar el diccionario, donde 
 
 
      
